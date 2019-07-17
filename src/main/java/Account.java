@@ -23,8 +23,7 @@ public class Account {
     }
 
     public void deposit(double amount) {
-        double newAmount = depositWithInterest(amount) + amount;
-        balance += newAmount;
+        balance += depositWithInterest(amount) + amount;
     }
 
     private static double depositWithInterest(double amount){
@@ -41,8 +40,6 @@ public class Account {
         withdraw(amount);
         account.deposit(amount);
     }
-
-
 
     public void addInterest() {
         double balanceDivide100 = balance / 100.0;
