@@ -47,12 +47,11 @@ public class Account {
     }
 
     public void addInterest() {
-        double interestAmount = 0.0;
+        double balanceDivide100 = balance / 100.0;
         if (accountType == AccountType.SAVING){
-           interestAmount = balance / 100.0 * 5.0;
+           balance += balanceDivide100 * 5.0;
         } else if (accountType == AccountType.CASUAL){
-            interestAmount = balance / 100.0 *2.5;
+            balance += balanceDivide100 * 2.5;
         }
-        balance += interestAmount;
     }
 }
