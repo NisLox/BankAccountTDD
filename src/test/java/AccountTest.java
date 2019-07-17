@@ -49,14 +49,6 @@ public class AccountTest {
     }
 
     @Test
-    public void testSetter() throws Exception {
-        account.setName("John");
-        final Field field = account.getClass().getDeclaredField("name");
-        field.setAccessible(true);
-        assertEquals("Fields didn't match", "John", field.get(account));
-    }
-
-    @Test
     public void adding1PercentToAnyDeposits() {
         account.deposit(50.0);
         assertEquals("1% has been added", 50.50, account.checkBalance(), 1);
@@ -79,6 +71,29 @@ public class AccountTest {
         Account person1 = new Account("person1", AccountType.CASUAL, 50.00);
         person1.addInterest();
         assertEquals("2.5% has been added", 51.25, person1.checkBalance(), 1);
+    }
 
+    @Test
+    public void jointAccount(){
+        Account johnAndMary = new Account("John", "Mary", AccountType.CASUAL, 0.0);
+        assertEquals("Checking account names", "John + Mary", johnAndMary.checkNames());
+    }
+
+    @Test
+    public void testSetterFirstName() throws Exception {
+        account.setName("John");
+        final Field field = account.getClass().getDeclaredField("name");
+        field.setAccessible(true);
+        assertEquals("Fields didn't match", "John", field.get(account));
+    }
+
+    @Test
+    public void testGetterSecondName() throws Exception {
+        Account johnAndMary = new Account("John", "Mary", AccountType.CASUAL, 0.0);
+        Field field = johnAndMary.getClass().getDeclaredField("secondName");
+        field.setAccessible(true);
+        field.set(johnAndMary, "newSecondName");
+        String result = johnAndMary.getSecondName();
+        assertEquals("Field wasn't retrieved properly", "newSecondName", result);
     }
 }

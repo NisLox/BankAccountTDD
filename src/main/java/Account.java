@@ -1,11 +1,19 @@
 public class Account {
 
     private String name;
+    private String secondName;
     private final AccountType accountType;
     private double balance;
 
     public Account(String name, AccountType accountType, double balance) {
         this.name = name;
+        this.accountType = accountType;
+        this.balance = balance;
+    }
+
+    public Account(String name, String secondName, AccountType accountType, double balance) {
+        this.name = name;
+        this.secondName = secondName;
         this.accountType = accountType;
         this.balance = balance;
     }
@@ -34,6 +42,21 @@ public class Account {
         account.deposit(amount);
     }
 
+
+
+    public void addInterest() {
+        double balanceDivide100 = balance / 100.0;
+        if (accountType == AccountType.SAVING){
+           balance += balanceDivide100 * 5.0;
+        } else if (accountType == AccountType.CASUAL){
+            balance += balanceDivide100 * 2.5;
+        }
+    }
+
+    public String checkNames() {
+        return name + " + " + secondName;
+    }
+
     public String getName() {
         return name;
     }
@@ -46,12 +69,7 @@ public class Account {
         return accountType;
     }
 
-    public void addInterest() {
-        double balanceDivide100 = balance / 100.0;
-        if (accountType == AccountType.SAVING){
-           balance += balanceDivide100 * 5.0;
-        } else if (accountType == AccountType.CASUAL){
-            balance += balanceDivide100 * 2.5;
-        }
+    public String getSecondName() {
+        return secondName;
     }
 }
