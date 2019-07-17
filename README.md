@@ -1,5 +1,5 @@
 # BankAccountTDD
-Example of a TDD Bank Account
+Example of a TDD Bank Account using User Stories.
 
 ## User Stories
 
@@ -9,7 +9,7 @@ Example of a TDD Bank Account
 #### Customer
 * As a customer, I want to be able to open a bank account and use it, so that I can store my money.
 
-### Breaking them down
+### Breaking the stories down
 
 #### Banker
 * As a banker, I want to be able to open an account for a customer
