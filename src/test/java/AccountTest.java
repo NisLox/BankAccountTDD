@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import java.lang.reflect.Field;
 
-public class PersonTest {
+public class AccountTest {
     private Account account;
 
     @Before

@@ -20,7 +20,7 @@ public class Account {
     }
 
     private static double depositWithInterest(double amount){
-       return amount / 100.0 *1.0;
+       return amount / 100.0 * 1.0;
     }
 
     public void withdraw(double amount) {
