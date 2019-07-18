@@ -6,8 +6,8 @@ import static org.hamcrest.Matchers.hasSize;
 
 public class BankTest {
 
-    Person will;
-    Bank bank;
+    private Person will;
+    private Bank bank;
 
 
     @Before

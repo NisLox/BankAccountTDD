@@ -9,8 +9,8 @@ import static org.junit.Assert.assertEquals;
 
 public class PersonTest {
 
-    Person will;
-    Bank bank;
+    private Person will;
+    private Bank bank;
 
     @Before
     public void before() {

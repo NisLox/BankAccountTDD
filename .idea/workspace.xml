@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39d740a0-723d-43a0-850c-eaae4a6a4fd3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Account.java" afterPath="$PROJECT_DIR$/src/main/java/Account.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/AccountTest.java" afterPath="$PROJECT_DIR$/src/test/java/AccountTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/BankTest.java" afterPath="$PROJECT_DIR$/src/test/java/BankTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/PersonTest.java" afterPath="$PROJECT_DIR$/src/test/java/PersonTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="AccountTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/AccountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="84" column="69" lean-forward="false" selection-start-line="84" selection-start-column="69" selection-end-line="84" selection-end-column="69" />
+            <state relative-caret-position="697">
+              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#227#228#0" expanded="true" />
@@ -55,8 +54,8 @@
       <file leaf-file-name="PersonTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="60" column="31" lean-forward="true" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
+            <state relative-caret-position="204">
+              <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,8 +113,8 @@
       <file leaf-file-name="BankTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BankTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -175,13 +174,13 @@
         <option value="$PROJECT_DIR$/src/main/java/AccountType.java" />
         <option value="$PROJECT_DIR$/.README" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/test/java/BankTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Bank.java" />
         <option value="$PROJECT_DIR$/src/main/java/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PersonTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Account.java" />
         <option value="$PROJECT_DIR$/src/test/java/AccountTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BankTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PersonTest.java" />
       </list>
     </option>
   </component>
@@ -513,7 +512,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563353419043</updated>
-      <workItem from="1563353422046" duration="28602000" />
+      <workItem from="1563353422046" duration="28715000" />
     </task>
     <servers />
   </component>
@@ -550,7 +549,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28602000" />
+    <option name="totallyTimeSpent" value="28715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
@@ -565,7 +564,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18645833" sideWeight="0.4943274" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18645833" sideWeight="0.50567263" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -672,16 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PersonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="60" column="31" lean-forward="true" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AccountType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -748,8 +737,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BankTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PersonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -758,8 +757,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="84" column="69" lean-forward="false" selection-start-line="84" selection-start-column="69" selection-end-line="84" selection-end-column="69" />
+        <state relative-caret-position="697">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#227#228#0" expanded="true" />
