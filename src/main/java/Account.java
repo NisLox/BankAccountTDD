@@ -3,7 +3,7 @@ public class Account {
     private static final double DivisionAmount = 100.0;
     private String name;
     private String secondName;
-    private final AccountType accountType;
+    private AccountType accountType;
     private double balance;
 
     public Account(String name, AccountType accountType, double balance) {
@@ -51,6 +51,10 @@ public class Account {
         }
     }
 
+    public void changeAccountType(AccountType changingAccountType) {
+        accountType = changingAccountType;
+    }
+
     public String checkNames() {
         return name + " + " + secondName;
     }
@@ -70,4 +74,6 @@ public class Account {
     public String getSecondName() {
         return secondName;
     }
+
+
 }

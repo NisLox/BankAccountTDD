@@ -7,8 +7,8 @@ public class Bank {
     private final List<Person> personList = new ArrayList<Person>();
 
 
-    public void addAccount(Person will, Account account) {
-        will.addAccount(account);
+    public void addAccount(Person person, Account account) {
+        person.addAccount(account);
         accountList.add(account);
     }
 
@@ -16,9 +16,9 @@ public class Bank {
         return accountList;
     }
 
-    public void closeAccount(Person will, Account account) {
+    public void closeAccount(Person person, Account account) {
         accountList.remove(account);
-        will.getList().remove(account);
+        person.getList().remove(account);
     }
 
     public void addUser(Person person) {

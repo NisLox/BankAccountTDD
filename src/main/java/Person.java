@@ -17,6 +17,14 @@ public class Person {
         this.number = number;
     }
 
+    public Account createAccount(String accountName, AccountType accountType, double balance,
+            Bank bank, Person will) {
+        Account account = new Account(accountName, accountType, balance);
+        bank.addAccount(will,account);
+        addAccount(account);
+        return account;
+    }
+
     public void addAccount(Account account) {
         list.add(account);
     }
@@ -40,5 +48,6 @@ public class Person {
     public String getNumber() {
         return number;
     }
+
 
 }

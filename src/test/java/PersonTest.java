@@ -13,7 +13,7 @@ public class PersonTest {
     Bank bank;
 
     @Before
-    public void before(){
+    public void before() {
         will = new Person("Will", 23, "Stevenage", "07765680945");
         bank = new Bank();
     }
@@ -35,6 +35,13 @@ public class PersonTest {
         bank.addAccount(will, account);
         bank.closeAccount(will, account);
         Assert.assertThat("Check account has been removed from user", will.getList(), hasSize(0));
+    }
+
+    @Test
+    public void createAccount() {
+        will.createAccount("Wills_Casual", AccountType.CASUAL, 125.0, bank, will);
+        assertEquals("Check Will has been added to his own info", "Wills_Casual",
+                will.getList().get(0).getName());
     }
 
     @Test

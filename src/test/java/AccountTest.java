@@ -80,6 +80,13 @@ public class AccountTest {
     }
 
     @Test
+    public void changeAccountTeam(){
+        Account account = new Account("John", AccountType.CASUAL, 0.0);
+        account.changeAccountType(AccountType.SAVING);
+        assertEquals("Account Type doesn't match", AccountType.SAVING, account.getAccountType());
+    }
+
+    @Test
     public void testSetterFirstName() throws Exception {
         account.setName("John");
         final Field field = account.getClass().getDeclaredField("name");
