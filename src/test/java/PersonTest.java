@@ -62,5 +62,14 @@ public class PersonTest {
         assertEquals("Field wasn't retrieved properly", "000000000", result);
     }
 
+    @Test
+    public void testGetAge() throws Exception {
+        Field field = will.getClass().getDeclaredField("age");
+        field.setAccessible(true);
+        field.set(will, 12);
+        int result = will.getAge();
+        assertEquals("Field wasn't retrieved properly", 12, result);
+    }
+
 
 }

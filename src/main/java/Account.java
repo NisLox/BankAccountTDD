@@ -1,6 +1,6 @@
 public class Account {
 
-    private static final double DivisionAmount = 100.0;
+    private static final double DIVISION_AMOUNT = 100.0;
     private String name;
     private String secondName;
     private AccountType accountType;
@@ -28,7 +28,7 @@ public class Account {
     }
 
     private static double depositWithInterest(double amount) {
-        return amount / DivisionAmount * 1.0;
+        return amount / DIVISION_AMOUNT * 1.0;
     }
 
     public void withdraw(double amount) {
@@ -43,7 +43,7 @@ public class Account {
     }
 
     public void addInterest() {
-        double balanceDivide100 = balance / DivisionAmount;
+        double balanceDivide100 = balance / DIVISION_AMOUNT;
         if (accountType == AccountType.SAVING) {
             balance += balanceDivide100 * 5.0;
         } else if (accountType == AccountType.CASUAL) {

@@ -81,9 +81,8 @@ public class AccountTest {
 
     @Test
     public void changeAccountTeam(){
-        Account account = new Account("John", AccountType.CASUAL, 0.0);
-        account.changeAccountType(AccountType.SAVING);
-        assertEquals("Account Type doesn't match", AccountType.SAVING, account.getAccountType());
+        account.changeAccountType(AccountType.CASUAL);
+        assertEquals("Account Type doesn't match", AccountType.CASUAL, account.getAccountType());
     }
 
     @Test
