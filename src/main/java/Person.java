@@ -9,7 +9,6 @@ public class Person {
     private final String number;
     private final List<Account> list = new ArrayList<Account>();
 
-
     public Person(String name, int age, String location, String number) {
         this.name = name;
         this.age = age;
